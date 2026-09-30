@@ -130,7 +130,7 @@ if [ -n "${EUFY_CLIENT_GIT_URL}" ] && [ -n "${EUFY_CLIENT_GIT_BRANCH}" ];  then
     git clone -b "$EUFY_CLIENT_GIT_BRANCH" "$EUFY_CLIENT_GIT_URL"
 
     cd eufy-security-client
-    npm ci
+    npm install
     npm run build -y
     npm pack
     mv eufy-security-client*.tgz ../eufy-security-client.tgz
