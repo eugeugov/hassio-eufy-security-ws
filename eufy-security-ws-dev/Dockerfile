@@ -1,5 +1,4 @@
-ARG BUILD_FROM
-FROM $BUILD_FROM
+FROM ghcr.io/home-assistant/base:3.22
 
 ARG EUFY_SECURITY_WS_VERSION
 
