@@ -48,4 +48,4 @@ schema:
   github_url: str?
   github_branch: str?
   eufy_ws_version: str
-image: bropat/hassio-eufy-security-ws-dev-{arch}
+# image: bropat/hassio-eufy-security-ws-dev-{arch}
