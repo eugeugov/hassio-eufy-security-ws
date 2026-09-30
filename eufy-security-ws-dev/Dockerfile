@@ -9,7 +9,9 @@ RUN \
     nodejs \
     npm \
     jq \
-    git
+    git \
+    && node --version \
+    && npm --version
 
 COPY package.json /usr/src/app/
 
