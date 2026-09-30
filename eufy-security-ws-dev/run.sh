@@ -116,6 +116,14 @@ check_version() {
     return 0 # lower
 }
 
+# Upgrade Node.js to satisfy eufy-security-client requirements
+apk add --no-cache nodejs npm
+
+echo "Node version:"
+node --version
+echo "NPM version:"
+npm --version
+
 if [ -n "${EUFY_CLIENT_GIT_URL}" ] && [ -n "${EUFY_CLIENT_GIT_BRANCH}" ];  then
     echo "Installing a git version of Eufy Client $EUFY_CLIENT_GIT_URL with branch $EUFY_CLIENT_GIT_BRANCH"
     cd /usr/src/app
