@@ -1,5 +1,5 @@
 node update added
-for https://github.com/eugeugov/eufy-security-client#t814x-t8417 support  
+for https://github.com/eugeugov/eufy-security-client/tree/t814x-t8417 support  
 
 # Official eufy-security-ws Home Assistant add-on repository
 
